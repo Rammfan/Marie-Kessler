@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #4A33BE;
+	box-shadow: 0 5px 3px 1px rgba(74, 51, 190, 0.5);
+
+}
+
+.logo>a>img{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	transition: 0.5s filter ease-in-out;
+}
+
+.logo{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	margin: auto;
+	box-shadow: 0 5px 5px 2px rgba(74, 51, 190, 0.5);
+}
+
+.logo>a>img:hover{
+	filter: saturate(35%);
+	transition: 0.5s ease-in-out;
+}
+
+.content>.cont-head{
+	padding: 15px;
+	text-transform: uppercase;
+	background-color: #4A33BE;
+	color: white;
+	text-shadow: black 1px 1px 0, 
+				 black -1px -1px 0,
+				 black -1px 1px 0, 
+				 black 1px -1px 0;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.content{
+	width: 768px;
+	margin: 90px auto;
+	border-radius: 15px;
+	background-color: #fff;
+}
+
+.content>.cont-body{
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 0px 0px 15px 15px; 
+}
+
+body{
+	background-color: rgba(140, 118, 254, 0.5);
+}
+
+.cont-body>form{
+	margin: auto;
+}
+
+form{
+	width: 30%;
+	text-align: left;
+	padding: 15px;
+}
+
+form>label{
+	width: 100%;
+	display: block;
+	line-height: 1.7em;
+}
+
+form>label>input{
+	width: 100%;
+	background-color: #fff;
+	padding: 5px;
+	box-shadow: none;
+	border: 1px solid #999;
+
+}
+
+form>.form-foo>input[type="submit"]{
+	width: 75%;
+	padding: 10px;
+	margin: 15px auto;
+	background-color: #4A33BE;
+	border: 2px solid #eee;
+	box-shadow: 2px 2px 5px 2px rgba(74, 51, 190, 0.5);
+	color: #fff;
+}
+
+form>.form-foo>input[type="submit"]:active{
+	box-shadow: none;
+}
+
+.form-foo{
+	width: 100%;
+	text-align: center;
+}
+
+.cont-menu{
+	height: 40px;
+	background-color: #ccc;
+}
+
+.cont-menu>nav{
+	width: 100%;
+}
+
+.cont-menu>nav>a{
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+	padding: 9px 0;
+	text-decoration: none;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+.cont-menu>nav>a:hover{
+	background-color: #fcc;
+	filter: sepia(100%) contrast(100%) hue-rotate(180deg);
+}
+
+.cont-menu>.tri>a{
+	width: 32.64%;
+}
+
+.cont-menu>.dwa>a{
+	width: 49.4%;
+}
+
+
+.cont-menu>nav>a.active{
+	border-bottom: 5px solid steelblue;
+	padding-bottom: 4px;
+}
+
+@media (min-width: 1025px) {
+	.content{
+		width: 900px;
+	}
+
+	.content>.cont-head{
+		font-size: 25px;
+	}
+
+	.cont-menu>nav>a{
+		font-size: 22px;
+		padding: 7px 0;
+	}
+	.cont-menu>.tri>a{
+		width: 32.8%;
+	}
+
+	.cont-menu>.dwa>a{
+		width: 49.54%;
+	}
+}
