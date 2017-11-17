@@ -100,14 +100,12 @@ form>.form-foo>input[type="submit"]{
 form>.form-foo>input[type="submit"]:active{
 	box-shadow: none;
 }
-
 .form-foo{
 	width: 100%;
 	text-align: center;
 }
 
 .cont-menu{
-	height: 40px;
 	background-color: #ccc;
 }
 

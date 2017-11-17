@@ -1,4 +1,4 @@
-<form action="">
+<form action="action/auth.php" method="post">
 	<label for="">
 		Логин / Номер документа
 		<input name="login" type="text">

@@ -5,6 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Тестирование по русскому языку</title>
 	<link rel="stylesheet" href="css/style.css">
+	<?php 
+		require_once 'lib/link.php';
+		$usr = new User();
+		$id = $usr->Ident();
+	?>
 </head>
 <body>
 	<header>
